@@ -109,7 +109,9 @@ nav ul li a:hover::after{
     color:#f72d6d;
 }
 .header-text p span{
-    color: #fa1616f5;
+    color: #f57d32;
+    font-weight: 500;
+    font-size: larger;
 }
 
 /* about */
@@ -223,6 +225,19 @@ margin-left: 10%;
     font-size: 50px;
     margin-bottom: 30px;
 
+}
+.services-list div .fa-solid.fa-mug-saucer{
+
+    color: brown;
+
+}
+.services-list div .fa-solid.fa-clapperboard
+{
+    color: #61b752;
+}
+.services-list div .fa-solid.fa-address-card
+{
+    color: #ff004f;
 }
 
 .services-list div h2{
@@ -575,14 +590,22 @@ nav .fa-solid
     }
     .btn.btn3{
         /* text-align: center; */
-        margin: 0 70px;
+        margin: 0 80px;
         
     }
     .copyright
     {
     /* width: 100%; */
     font-size: 14px;
-    margin: 20px 5px;
+    margin: 40px 5px;
+    }
+    .header-container img
+    {
+       width: 26%;
+    }
+    .work img
+    {
+        height: 250px;
     }
 }
 
